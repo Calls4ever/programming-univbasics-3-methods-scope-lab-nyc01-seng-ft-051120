@@ -20,6 +20,6 @@ def link
 
 end
 catch_phrases= phrase+"\n"+status+"\n"+toad+"\n"+lk
-def all_phrases(catch_phrases)
-  puts catch_phrases
+def all_phrases(cp=catch_phrases)
+  puts cp
 end
