@@ -21,8 +21,5 @@ def link
 end
 
 def all_phrases(catch_phrases)
-  puts phrase
-  puts status
-  puts toad
-  puts lk
+  puts catch_phrases
 end
