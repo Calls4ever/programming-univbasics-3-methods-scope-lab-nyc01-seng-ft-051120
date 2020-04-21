@@ -1,4 +1,7 @@
-
+phrase=""
+status=""
+toad=""
+lk=""
 def mario
   phrase = "It's-a me, Mario!"
   status = 'Thank You Mario! But Our Princess Is In Another Castle!'
@@ -6,15 +9,19 @@ def mario
 end
 
 def toadstool
-  status="Thank You Mario! But Our Princess Is In Another Castle!"
-  puts status
+  toad="Thank You Mario! But Our Princess Is In Another Castle!"
+  puts toad
 
 end
 def link
-  puts "It's Dangerous To Go Alone! Take This."
+  lk="It's Dangerous To Go Alone! Take This."
+  puts lk
 
 end
 
 def all_phrases(catch_phrases)
-  puts catch_phrases
+  puts phrase
+  puts status
+  puts toad
+  puts lk
 end
