@@ -19,7 +19,7 @@ def link
 
 end
 
-def all_phrases(catch_phrases)
+def all_phrases
   puts phrase
   puts status
   puts toad
