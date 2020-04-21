@@ -19,7 +19,11 @@ def link
   puts lk
 
 end
-catch_phrases= phrase+"\n"+status+"\n"+toad+"\n"+lk
-def all_phrases(cp=catch_phrases)
-  puts cp
+
+
+
+def all_phrases()
+  mario()
+  toadstool()
+  link()
 end
