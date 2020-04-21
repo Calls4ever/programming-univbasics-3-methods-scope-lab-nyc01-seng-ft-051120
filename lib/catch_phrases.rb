@@ -2,6 +2,7 @@ phrase=""
 status=""
 toad=""
 lk=""
+catch_phrases= phrase+"\n"+status+"\n"+toad+"\n"+lk
 def mario
   phrase = "It's-a me, Mario!"
   status = 'Thank You Mario! But Our Princess Is In Another Castle!'
@@ -19,7 +20,7 @@ def link
 
 end
 
-def all_phrases
+def all_phrases(
   puts phrase
   puts status
   puts toad
